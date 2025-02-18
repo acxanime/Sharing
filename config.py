@@ -21,6 +21,8 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "600")) # auto delete in seconds
 
+START_PIC = os.environ.get("START_PIC", "https://graph.org/file/aef88c626d4a0e34f2c27-7f25092013131294d9.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/f37e02aafc728e105ca70-b671a2c837888b90db.jpg")
 
 PORT = os.environ.get("PORT", "8080")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
